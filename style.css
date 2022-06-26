@@ -1,0 +1,484 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.main {
+    position: relative;
+}
+
+.bgimg {
+    width: 100vw;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    z-index: -1;
+}
+
+.left {
+    width: 50vw;
+    position: absolute;
+    top: 12vw;
+    left: 21vw;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    display: inline-block;
+}
+
+.one {
+    font-size: 8vw;
+    font-family: sans-serif;
+}
+
+.plus {
+    position: absolute;
+    font-size: 5vw;
+    top: -1vw;
+    left: 10vw;
+}
+
+.mogul {
+    font-size: 3vw;
+    position: absolute;
+    left: 0vw;
+    top: 8vw;
+}
+
+.c1 {
+    font-size: 1.7vw;
+    position: absolute;
+    left: 0vw;
+    top: 11vw;
+    font-weight: 300;
+}
+
+.c2 {
+    font-size: 1vw;
+    position: absolute;
+    left: 0vw;
+    top: 17vw;
+    font-weight: 300;
+}
+
+.left2 {
+    width: 60vw;
+    height: 50vw;
+    position: absolute;
+    top: 53vw;
+    left: 20vw;
+    /* background-color: rgb(0, 0, 0, 0.3); */
+}
+
+.skill {
+    font-size: 3vw;
+    position: absolute;
+    left: 0vw;
+    top: 5vw;
+    font-weight: 300;
+    font-family: tapestry;
+    letter-spacing: 0.5vw;
+    color: black;
+}
+
+.c3 {
+    font-size: 1vw;
+    color: black;
+    position: absolute;
+    left: 0vw;
+    top: 9vw;
+    font-weight: 300;
+    letter-spacing: 0.2vw;
+}
+
+.redline {
+    position: absolute;
+    top: 11.5vw;
+    left: 0vw;
+    width: 10vw;
+    height: 0.2vw;
+    background-color: #5b1c1e;
+    border-radius: 100px;
+}
+
+.box2 {
+    height: 16vw;
+    width: 10vw;
+    position: absolute;
+    top: 12vw;
+    left: 0vw;
+}
+
+.c4 {
+    font-size: 0.8vw;
+    color: black;
+    position: absolute;
+    left: 0vw;
+    top: 0.5vw;
+    font-weight: 300;
+}
+
+.c5 {
+    font-size: 0.8vw;
+    color: black;
+    position: absolute;
+    right: 0vw;
+    top: 0.5vw;
+    font-weight: 300;
+}
+
+.flash {
+    position: absolute;
+    top: 3.5vw;
+    width: 6vw;
+}
+
+.c6 {
+    font-size: 0.8vw;
+    color: black;
+    position: absolute;
+    left: 0vw;
+    top: 9vw;
+    font-weight: 200;
+}
+
+.c7 {
+    font-size: 0.8vw;
+    color: black;
+    position: absolute;
+    left: 0vw;
+    top: 12vw;
+    font-weight: 300;
+}
+
+.box3 {
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    top: 11.5vw;
+    left: 11.25vw;
+    background-color: #7d2a26;
+}
+
+.grade {
+    font-size: 1.7vw;
+    position: absolute;
+    left: 1vw;
+    top: 1vw;
+    font-family: tapestry;
+}
+
+.c8 {
+    font-size: 0.8vw;
+    font-weight: 300;
+    position: absolute;
+    left: 1vw;
+    top: 3vw;
+}
+
+.divider {
+    position: absolute;
+    top: 5vw;
+    left: 1vw;
+    width: 8vw;
+    height: 0.1vw;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.c9 {
+    font-size: 0.8vw;
+    font-weight: 300;
+    position: absolute;
+    left: 1vw;
+    top: 6vw;
+}
+
+.box4 {
+    color: black;
+    height: 21vw;
+    width: 17vw;
+    position: absolute;
+    top: 11.5vw;
+    left: 21.5vw;
+}
+
+.c10 {
+    font-size: 1.7vw;
+    font-weight: 300;
+    position: absolute;
+    left: 3vw;
+    top: 2vw;
+}
+
+.c11 {
+    font-size: .7vw;
+    font-weight: 300;
+    position: absolute;
+    left: 5vw;
+    top: 4vw;
+}
+
+.divider2 {
+    position: absolute;
+    top: 7vw;
+    left: 1vw;
+    width: 15vw;
+    height: 0.01vw;
+    background-color: grey;
+    border-radius: 100px;
+}
+
+.c12 {
+    font-size: 0.9vw;
+    font-weight: 300;
+    position: absolute;
+    top: 8vw;
+    padding: 1vw;
+}
+
+.dots {
+    position: absolute;
+    top: 18vw;
+    left: 6vw;
+    width: 15vw;
+    height: 0.01vw;
+    border-radius: 100px;
+    letter-spacing: 1vw;
+}
+
+.box5 {
+    height: 17vw;
+    width: 19vw;
+    position: absolute;
+    top: 0vw;
+    left: 40vw;
+}
+
+.dire {
+    font-size: 3vw;
+    position: absolute;
+    font-weight: 300;
+    font-family: tapestry;
+    letter-spacing: 0.5vw;
+}
+
+.c13 {
+    font-size: 0.8vw;
+    font-weight: 300;
+    position: absolute;
+    left: 0vw;
+    top: 5vw;
+}
+
+.c14 {
+    font-size: 0.8vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: 0vw;
+    top: 7vw;
+}
+
+.box6 {
+    height: 18vw;
+    width: 18vw;
+    position: absolute;
+    top: 32.5vw;
+    left: 51.25vw;
+    color: black;
+    font-family: blaka hollow;
+}
+
+.collection {
+    font-size: 4vw;
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+}
+
+.c15 {
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: -2vw;
+    top: 5vw;
+}
+
+.c16 {
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: -5vw;
+    top: 8vw;
+}
+
+.left3 {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+
+}
+
+.c17 {
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: -5vw;
+    top: 11vw;
+}
+
+.c18 {
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: -5vw;
+    top: 14vw;
+}
+
+.c19 {
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: -5vw;
+    top: 17vw;
+}
+
+.left3 {
+    width: 60vw;
+    height: 50vw;
+    position: absolute;
+    top: 108vw;
+    left: 20vw;
+}
+
+.box7 {
+    height: 16vw;
+    width: 20vw;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+
+.animates {
+    font-size: 2.2vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: 11vw;
+    top: 0vw;
+    color: black;
+    font-family: blaka hollow;
+}
+
+.c20 {
+    color: black;
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: 11vw;
+    top: 4vw;
+}
+
+.box8 {
+    height: 16vw;
+    width: 27vw;
+    position: absolute;
+    top: 16vw;
+    left: 20vw;
+}
+
+.first,
+.second {
+    position: absolute;
+    top: 0vw;
+    font-size: 4vw;
+    left: 0vw;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.november {
+    position: absolute;
+    top: 0vw;
+    left: 8vw;
+    font-size: 2vw;
+    font-family: tapestry;
+}
+
+.c21 {
+    position: absolute;
+    top: 2vw;
+    left: 8vw;
+    font-size: 1vw;
+    font-family: tapestry;
+}
+
+.c22 {
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: 1vw;
+    top: 5vw;
+    font-size: 0.8vw;
+}
+
+.box9 {
+    height: 16vw;
+    width: 27vw;
+    position: absolute;
+    top: 31vw;
+    left: 1vw;
+    color: black;
+}
+
+.development {
+    position: absolute;
+    top: 4.5vw;
+    left: 0vw;
+    font-size: 1.5vw;
+    font-family: tapestry;
+}
+
+.c23 {
+    width: 10vw;
+    padding-right: 1vw;
+    font-weight: 300;
+    position: absolute;
+    left: 0vw;
+    top: 7vw;
+    font-size: 0.8vw;
+}
+.box10{
+    height: 18vw;
+    width: 10vw;
+    position: absolute;
+    top: 30vw;
+    left: 39vw;
+    font-size: 2vw;
+    font-family: blaka hollow;
+}
+.c24{
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+    font-size: 1vw;
+    font-family: blaka hollow;
+}
